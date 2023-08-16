@@ -101,12 +101,8 @@ class Profile extends StatelessWidget {
                   height: 20,
                 ),
                 Container(
-                  decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 246, 242, 207),// สีพื้นหลังของ Container
-                    borderRadius:
-                        BorderRadius.circular(20.0), // รัศมีของมุมโค้ง
-                  ),
                   padding: EdgeInsets.all(20),
+                  color: Color.fromARGB(255, 246, 242, 207),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -190,11 +186,9 @@ class Profile extends StatelessWidget {
                           ),
                           Column(
                             children: [
-                              Text(
-                                '62%',
+                              Text('62%',
                                 style: TextStyle(
-                                    fontSize: 20, fontFamily: 'Prata'),
-                              ),
+                                    fontSize: 20, fontFamily: 'Prata'),),
                               Image.asset(
                                 'assets/images/62.png',
                                 height: 30,
@@ -233,11 +227,9 @@ class Profile extends StatelessWidget {
                           ),
                           Column(
                             children: [
-                              Text(
-                                '45%',
+                              Text('45%',
                                 style: TextStyle(
-                                    fontSize: 20, fontFamily: 'Prata'),
-                              ),
+                                    fontSize: 20, fontFamily: 'Prata'),),
                               Image.asset(
                                 'assets/images/45.png',
                                 height: 30,
